@@ -1,0 +1,5 @@
+Visual Landmark Dataset V1
+ImageFile, Camera Position [X Y Z W P Q R]
+
+
+seq7/frame00038.png -13.902669 -18.223222 1.869704 0.676583 0.571875 -0.308713 0.346252
