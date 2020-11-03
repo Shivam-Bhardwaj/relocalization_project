@@ -1,0 +1,16 @@
+net: "../../posenet/models/train_posenet.prototxt"
+test_initialization: false
+test_iter: 100
+test_interval: 100
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 2500
+display: 20
+max_iter: 10000
+solver_type: ADAGRAD
+weight_decay: 0.005
+snapshot: 200
+snapshot_prefix: "../../posenet/models/snapshot/"
+solver_mode: GPU
+

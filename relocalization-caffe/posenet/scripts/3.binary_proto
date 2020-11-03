@@ -1,0 +1,5 @@
+#!/bin/bash
+
+../../build/tools/compute_image_mean ../../dataset/test_lmdb/ ../../dataset/test_lmdb/test.binaryproto
+../../build/tools/compute_image_mean ../../dataset/train_lmdb/ ../../dataset/train_lmdb/train.binaryproto
+../../build/tools/compute_image_mean ../../dataset/validation_lmdb/ ../../dataset/validation_lmdb/validation.binaryproto
